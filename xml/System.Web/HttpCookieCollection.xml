@@ -273,7 +273,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- If the named cookie does not exist, this method creates a new cookie with that name.  
+ If the named cookie does not exist, this method creates a new cookie with that name. This only occurs in the Cookies collection of the Response object, not the Request object.  
   
    
   
